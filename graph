@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #fdf9f8;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+    }
+    .bar-container {
+      display: flex;
+      align-items: flex-end;
+      gap: 10px;
+      height: 250px;
+      border-left: 2px solid #555;
+      border-bottom: 2px solid #555;
+      padding: 10px;
+    }
+    .bar {
+      width: 30px;
+      background: #773f3f;
+      text-align: center;
+      color: #fff;
+      font-size: 0.7em;
+      border-radius: 6px 6px 0 0;
+    }
+    .bar.refurbishment { background: #a05d5d; }
+    .bar.newbuild { background: #5e2c2c; }
+  </style>
+</head>
+<body>
+
+<h1>Embodied Carbon Emissions</h1>
+<p>Intensity measured in <b>kgCO₂e/m²</b></p>
+
+<div class="bar-container">
+  <div class="bar refurbishment" style="height: 120px;">549</div>
+  <div class="bar refurbishment" style="height: 60px;">278</div>
+  <div class="bar newbuild" style="height: 190px;">875</div>
+  <div class="bar newbuild" style="height: 130px;">617</div>
+  <div class="bar refurbishment" style="height: 110px;">506</div>
+  <div class="bar refurbishment" style="height: 10px;">36</div>
+</div>
+
+</body>
+</html>
