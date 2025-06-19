@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      background: #111;
+      font-family: sans-serif;
+      color: #fff;
+      padding: 20px;
+    }
+    .brand-kits {
+      background: #1e1e1e;
+      border-radius: 16px;
+      padding: 16px;
+      width: 280px;
+    }
+    .kit {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #2a2a2a;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      padding: 10px 14px;
+    }
+    .kit input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      margin-right: 10px;
+    }
+    .kit-info {
+      display: flex;
+      align-items: center;
+    }
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin-right: 6px;
+    }
+    .ecorp .dot { background: #00c28a; }
+    .icorp .dot { background: #ffb800; }
+    .agency .dot { background: #ff3b3b; }
+    .agency input[type="checkbox"] {
+      accent-color: #7f4bff;
+    }
+  </style>
+</head>
+<body>
+
+<div class="brand-kits">
+  <div class="kit ecorp">
+    <div class="kit-info">
+      <input type="checkbox">
+      <div class="dot"></div>
+      ECorp
+    </div>
+    <div>⚙️</div>
+  </div>
+  <div class="kit icorp">
+    <div class="kit-info">
+      <input type="checkbox">
+      <div class="dot"></div>
+      ICorp
+    </div>
+    <div>⚙️</div>
+  </div>
+  <div class="kit agency">
+    <div class="kit-info">
+      <input type="checkbox" checked>
+      <div class="dot"></div>
+      The Agency
+    </div>
+    <div>⚙️</div>
+  </div>
+</div>
+
+</body>
+</html>
