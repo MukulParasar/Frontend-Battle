@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #fdf9f8;
+      padding: 20px;
+    }
+    .metrics {
+      display: flex;
+      gap: 40px;
+    }
+    .metric {
+      flex: 1;
+    }
+    .metric h2 {
+      font-size: 1.1em;
+      margin: 0;
+      color: #333;
+    }
+    .metric .value {
+      font-size: 2em;
+      font-weight: bold;
+      margin: 5px 0;
+      color: #3b1d1d;
+    }
+    .metric .change {
+      color: #b05050;
+      font-size: 0.9em;
+    }
+    .years {
+      margin-top: 10px;
+    }
+    .years div {
+      margin: 4px 0;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<div class="metrics">
+  <div class="metric">
+    <h2>Managed portfolio carbon footprint</h2>
+    <div class="value">45,048 tCO₂e</div>
+    <div class="change">↑ 16% from 2019</div>
+    <div class="years">
+      <div><span>2022</span><span>45,048</span></div>
+      <div><span>2021</span><span>14,111</span></div>
+      <div><span>2020</span><span>32,813</span></div>
+      <div><span>2019</span><span>38,673</span></div>
+    </div>
+  </div>
+  <div class="metric">
+    <h2>Managed portfolio energy intensity</h2>
+    <div class="value">123 kWh/m²</div>
+    <div class="change">↓ 22% from 2019</div>
+    <div class="years">
+      <div><span>2022</span><span>123</span></div>
+      <div><span>2021</span><span>128</span></div>
+      <div><span>2020</span><span>135</span></div>
+      <div><span>2019</span><span>157</span></div>
+    </div>
+  </div>
+  <div class="metric">
+    <h2>Managed portfolio energy consumption</h2>
+    <div class="value">47,790,662 kWh</div>
+    <div class="change">↓ 27% from 2019</div>
+    <div class="years">
+      <div><span>2022</span><span>47,790,662</span></div>
+      <div><span>2021</span><span>49,324,077</span></div>
+      <div><span>2020</span><span>48,784,205</span></div>
+      <div><span>2019</span><span>65,198,706</span></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
